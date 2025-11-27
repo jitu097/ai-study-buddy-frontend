@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+/* Custom dark grid background and teal/emerald accent theme */
+:root {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+  --primary: #10b981; /* emerald-500 */
+  --primary-dark: #059669; /* emerald-600 */
+  --primary-foreground: #ffffff;
+  --secondary: #18181b;
+  --secondary-foreground: #a1a1aa;
+  --muted-foreground: #a3a3a3;
+  --border: #262626;
+  --card: #18181b;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  /* Subtle grid background */
+  background-image:
+    linear-gradient(to right, rgba(255,255,255,0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255,255,255,0.03) 1px, transparent 1px);
+  background-size: 64px 64px;
+}
+
+/* Utility classes for theme colors (for Tailwind custom properties) */
+.text-primary { color: var(--primary) !important; }
+.text-primary-foreground { color: var(--primary-foreground) !important; }
+.text-muted-foreground { color: var(--muted-foreground) !important; }
+.text-foreground { color: var(--foreground) !important; }
+.bg-primary { background-color: var(--primary) !important; }
+.bg-primary\/10 { background-color: rgba(16,185,129,0.1) !important; }
+.bg-primary\/90 { background-color: rgba(16,185,129,0.9) !important; }
+.bg-secondary { background-color: var(--secondary) !important; }
+.bg-card { background-color: var(--card) !important; }
+.border-primary\/30 { border-color: rgba(16,185,129,0.3) !important; }
+.border-primary\/50 { border-color: rgba(16,185,129,0.5) !important; }
+.border-primary\/20 { border-color: rgba(16,185,129,0.2) !important; }
+.border-border { border-color: var(--border) !important; }
+.bg-card\/50 { background-color: rgba(24,24,27,0.5) !important; }
