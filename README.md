@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI Study Buddy – Landing Page
 
-## Getting Started
+A modern and fully responsive landing page built for **AI Study Buddy**, an AI-powered learning assistant for students.  
+This project showcases a clean UI, smooth layout, and responsive design using **Next.js**, **Tailwind CSS**, and UI components generated with **Vercel v0**.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Live Demo
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🔗 **Live Website:** https://ai-study-buddy-frontend-five.vercel.app/
+🔗 **GitHub Repo:** https://github.com/jitu097/ai-study-buddy-frontend
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🎯 Features
 
-## Learn More
+- ✨ Hero Section with CTA  
+- 📌 Features Section (4 feature cards)  
+- ⭐ Testimonials Section  
+- 💳 Pricing Section  
+- 📍 Footer  
+- 📱 Fully responsive (Mobile, Tablet, Desktop)  
+- 🎨 Modern UI generated using Vercel v0 and styled with Tailwind CSS  
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠 Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Next.js 14 (App Router)**
+- **Tailwind CSS**
+- **Vercel v0** (AI UI generator)
+- **TypeScript**
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🧩 Components Used
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `Hero.tsx`  
+- `Features.tsx`  
+- `Testimonials.tsx`  
+- `Pricing.tsx`  
+- `Footer.tsx`
+
+All components are imported inside `app/page.tsx`.
+
+---
+
+## 🤖 Vercel v0 Usage (Short Notes)
+
+I used **Vercel v0** to generate the major UI components of this landing page.  
+The **Hero Section, Features Section, Testimonials Section, and Pricing Section** were designed with V0’s AI component generator and exported as Next.js components.  
+I customized the colors, layout, and spacing to match the theme of **AI Study Buddy**.  
+Using Vercel v0 helped maintain clean UI consistency and sped up the component creation process.  
+The Footer section was built manually.
+
+---
+
+## 📦 Folder Structure
+
